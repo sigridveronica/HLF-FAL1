@@ -176,6 +176,10 @@ configtxgen -profile AirlineOEMChannel -outputCreateChannelTx ./channel-artifact
 configtxgen -profile SupplierOEMChannel -outputCreateChannelTx ./channel-artifacts/SupplierOEMChannel.tx -channelID supplieroemchannel
 ```
 
+Troubleshooting: 
+```diff
++ export FABRIC_CFG_PATH=<path-to-your-fabric-samples-main>/test-network/configtx/
+```
 
 -------- NOT SURE THIS IS CORRECT ----------
 

@@ -1,7 +1,15 @@
 # HLF-FAL
 
-<font color="red">This text is red.</font>
+Previous Steps: 
 
+1. Clone this repo
+
+2. Download the binaries of fabric:
+```bash
+cd fabric-samples-main/test-network
+./network.sh down
+curl -sSL https://bit.ly/2ysbOFE | bash -s
+```
 
 **HLF-FAL Configuration Guide**
 
